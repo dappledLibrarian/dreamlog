@@ -1,0 +1,14 @@
+/* 
+Aww, you ruined the surprise.
+Can't say I'm all that bothered by it. Wastes are welcome, after all.
+*/
+
+body {
+    color: black;
+}
+
+.unimportant {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
