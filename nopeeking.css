@@ -1,14 +1,16 @@
-/* 
-Aww, you ruined the surprise.
-Can't say I'm all that bothered by it. Wastes are welcome, after all.
-*/
-
-body {
-    color: black;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.unimportant {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+body {
+    margin: 2rem;
+}
+
+span {
+    display: inline;
+}
+
+#entry-div {
+    margin-bottom: 1rem;
 }
