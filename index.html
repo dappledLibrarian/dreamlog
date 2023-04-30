@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
-    <link rel="stylesheet" href="/nopeeking.css">
+    <link rel="stylesheet" href="nopeeking.css">
 </head>
 <body>
     <div id="entry-div">
         <p>Log Number</p>
         <input type="text" id="entry">
-        <input type="submit">
+        <input type="submit" onclick="reveal(entry.value)">
     </div>
     <div id="note-text">
-        I only remember <span class="unimportant"><a href="">parts</a></span> <a href="">of</a> my dreams. My dreams are a part of <a href="">me</a>. I cannot forget them. I have written them here. Maybe <a href="">you</a> can see that dream too. 
+        I only remember <span class="unimportant">part</span>s <span class="unimportant">of</span> my dreams. My dreams <span class="unimportant">are</span> a part of <span class="unimportant">me</span>. I cannot forget them <span class="unimportant">now</span>. I have written them here. Maybe if <span class="unimportant">you</span> read them, you will dream too. 
     </div>
+    <script src="thesoul.js" ></script>
 </body>
 </html>
