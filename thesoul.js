@@ -17,6 +17,7 @@ var logs = {
 
 function reveal(log) { 
     container = document.getElementById('note-text')
+    print(container)
     if(logs[log] == undefined) {
         return
     }
